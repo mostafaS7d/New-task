@@ -1,0 +1,523 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 98%;
+    height: 100vh;
+    background: #00000034;
+    padding: 5px;
+    margin: 5px;
+}
+.header{
+    background-image: url(../img/Background.png);
+    height: 600px;
+}
+.container .nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    /* background: #000; */
+
+}
+.nav .logo{
+    color: rgba(255, 255, 0, 0.719);
+    
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .5s;
+
+}
+.nav .logo span{
+    color: white;
+}
+.nav .logo:hover{
+    font-size: 35px;
+   
+}
+.nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+.nav ul li a:hover{
+    color: wheat;
+    font-size: 25px;
+}
+
+.body{
+    color: wheat;
+    font-size: 25px;
+    font-family: serif;
+    display: block;
+    justify-content: center;
+    width: 80%;
+    height: 250px;
+    /* background: blue; */
+    padding: 50px;
+    margin: 50px;
+    align-items: center;
+   
+
+}
+.body h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+    margin-bottom: 40px;
+    opacity: .5;
+    transition: .75s;
+    letter-spacing: 2px;
+    
+  
+    
+}
+
+.body h2:hover{
+    opacity: 1;
+
+}
+.body input{
+    width: 400px;
+    height: 25px;
+    padding: 8px;
+    margin: 10px;
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.808);
+    font-size: 20px;
+    border: none;
+    margin-bottom: 40px;
+    border-radius: 10px;
+
+   
+}
+#bnt{
+    width: 150px;
+    height: 35px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 145, 0, 0.877);
+    font-size: 20px;
+    margin: 0 auto;
+    border: #000 solid 2px;
+    border-radius: 8px;
+    transition: .25s;
+    
+   
+}
+#bnt:hover{
+    background: yellow;
+    font-size: 25px;
+
+}
+.nav-ser{
+    width: 100%;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    background: rgba(255, 174, 0, 0.938);
+    text-align: center;
+    padding: 15px;
+
+}
+.nav-ser span{
+    padding: 30px 10px 5px 5px;
+    margin-top: 50px;
+}
+.nav-ser a i{
+    color: #000;
+}
+.content{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+.content .div1 , .div2 , .div3 {
+    width: 200px;
+    height: 300px;
+    background: rgba(255, 174, 0, 0.61);
+    padding: 50px;
+    /* letter-spacing: 1px; */
+    line-height: 40px;
+}
+.content .div1 img{
+    width: 220px;
+    height: 100px;
+    border-radius: 40%;
+   
+
+}
+.content .div1 button{
+    width: 60px;
+    height: 40px;
+    color: white;
+    background: rgba(255, 166, 0, 0.233);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    transition: .5s;
+    border-radius: 5px;
+
+
+}
+.content .div1 button:hover{
+    width: 90px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.content .div2 button{
+    width: 60px;
+    height: 40px;
+    color: white;
+    background: rgba(255, 166, 0, 0.233);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    transition: .5s;
+    border-radius: 5px;
+
+   
+
+}
+.content .div2 button:hover{
+    width: 90px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.content .div3 button{
+    width: 60px;
+  
+    height: 40px;
+    color: white;
+    background: rgba(255, 166, 0, 0.233);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    transition: .5s;
+    border-radius: 5px;
+
+}
+.content .div3 button:hover{
+    width: 90px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.content .div2 img{
+    width: 220px;
+    height: 100px;
+
+}
+.content .div3 img{
+    width: 220px;
+    height: 100px;
+
+}
+/* ============================== */
+.nav-del{
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    background: black;
+    text-align: center;
+    padding: 15px;
+
+}
+.nav-del span{
+    padding: 30px 10px 5px 5px;
+    margin-top: 50px;
+}
+.nav-del a i{
+    color: white;
+}
+
+.delevery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.own h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px auto;
+    margin: 20px auto;
+}
+.own p{
+    
+    color: orange;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+.own p sub{
+    color: #000;
+    font-size: 20px;
+}
+
+.form {
+    background: rgb(226, 152, 15);
+    width: 50%;
+    height: 550px;
+
+}
+.form form h2{
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px auto;
+}
+.form form{
+    padding: 20px;
+    font-size: 20px;
+    
+    
+}
+.form form .group {
+    margin-left: 30px;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    margin:20px ;
+    align-items: center;
+   
+}
+.group label{
+    margin-left:25px;
+}
+.group input{
+    height: 20px;
+}
+.textnew{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 70px;
+    padding: 10px auto;
+    
+    
+
+}
+.textnew label{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    
+}
+.textnew textarea{
+    width: 250px;
+    height: 180px;
+    margin: 10px auto;
+}
+.botton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 10px 70px;
+    
+    
+}
+.botton button{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .text{
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    height: 200px;
+    
+}
+.about .text h2{
+    text-transform: capitalize;
+    color: rgba(223, 154, 26, 0.623);
+
+}
+.about .text p{
+    text-transform: capitalize;
+
+}
+.about .img img{
+    padding: 10px;
+    margin-top: 50px;
+    margin:50px 10px 5px 5px;
+    width: 500px;
+    height: 300px;
+    background: red;
+    
+}
+
+.menu{
+    width: 100%;
+    height: 100vh;
+
+}
+.menu h2{
+    margin: 10px 70vh;
+}
+.menu .section1{
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+    gap: 15px;
+    line-height: 20px;
+
+}
+.menu .section21 .sec1{
+    padding: 20px;
+}
+.menu .section1 .img{
+    width: 80px;
+    height: 80px;
+    background: blue;
+
+}
+.menu .section1 .img img{
+    width: 80px;
+    height: 80px;
+}
+.menu .section1 .sec1 button:hover{
+    
+    background: #1428d4;
+    cursor: pointer;
+}
+.menu .section2{
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    
+    
+    
+    gap: 15px;
+    line-height: 20px;
+
+}
+.menu .section2 .sec2{
+    padding: 20px;
+}
+.menu .section2 .img{
+    width: 80px;
+    height: 80px;
+    background: blue;
+
+}
+.menu .section2 .img img{
+    width: 80px;
+    height: 80px;
+}
+.menu .section2 .sec2 button:hover{
+    
+    background: #1428d4;
+    cursor: pointer;
+}
+.menu .section3{
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    
+    
+    
+    gap: 15px;
+    line-height: 20px;
+
+}
+.menu .section3 .sec3{
+    padding: 20px;
+}
+.menu .section3 .img{
+    width: 80px;
+    height: 80px;
+    background: blue;
+
+}
+.menu .section3 .img img{
+    width: 80px;
+    height: 80px;
+}
+.menu .section3 .sec3 button:hover{
+    
+    background: #1428d4;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
